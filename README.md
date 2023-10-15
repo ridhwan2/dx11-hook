@@ -14,8 +14,8 @@ You should have a `.dll` (dynamic link library) produced, use a dll injector to 
 To interact and change the GUI to what suits you best locate [this](https://github.com/ridhwan2/dx11-hook/blob/main/main.cpp#L81) section of the code, (you may have to scroll a little)
 
 ## Credits
-[kiero](https://github.com/Rebzzel/kiero)
-[imgui](https://github.com/ocornut/imgui)
+- [kiero](https://github.com/Rebzzel/kiero)
+- [imgui](https://github.com/ocornut/imgui)
 
 ## License
 

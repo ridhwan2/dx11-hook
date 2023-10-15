@@ -3,7 +3,7 @@ Hooks the dx11 [present method](https://learn.microsoft.com/en-us/windows/win32/
 
 
 ## Usage
-- Open the .`sln` file
+- Open the `.sln` file
 - Make sure that you are on `Debug` and `x64`
 - Build
 

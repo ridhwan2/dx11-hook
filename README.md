@@ -23,5 +23,4 @@ To interact and change the GUI to what suits you best locate [this](https://gith
 > [MIT](https://opensource.org/license/mit/) 2023 Ridhwan
 > 
 > Some parts of the software may be coded by other people (see credits)
-
->  - [x] I understand that unauthorized DLL injection can result in game bans and/or penalties.
+>  - [] I understand that unauthorized DLL injection can result in game bans and/or penalties.

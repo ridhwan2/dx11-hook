@@ -1,5 +1,5 @@
 # About
-Hooks the dx11 [present method](https://learn.microsoft.com/en-us/windows/win32/api/dxgi/nf-dxgi-idxgiswapchain-present) to render a gui internally
+Hooks the dx11 [present method](https://learn.microsoft.com/en-us/windows/win32/api/dxgi/nf-dxgi-idxgiswapchain-present) function to render a gui internally
 
 ![menu](https://cdn.discordapp.com/attachments/1100164162295959555/1163125073247481906/cmXblhbWXbvnrerV8tqTAkgJLCiwpsKTAkgJLCuxLCiyB1L6c9uWglxRYUmBJgSUFlhRYUqALCiyBVBdUXNaxpMCSAksKLCmwpMCSAvuSAksgtSnfTnoJQWWFFhSYEmBJQWWFOiCAksg1QUVl3UsKbCkwJICSwosKbCkwL6kwP8PfiL6mFQC1V8AAAAASUVORK5CYII.png?ex=653e6fa3&is=652bfaa3&hm=45166019dd00289495dff83bd9172f6009f75ea6bd0c1a68ad75cba38a508a33&)
 

@@ -12,7 +12,7 @@ You should have a `.dll` (dynamic link library) produced, use a dll injector to 
 
 To interact and change the GUI to what suits you best locate [this](https://github.com/ridhwan2/dx11-hook/blob/main/main.cpp#L81) section of the code, (you may have to scroll a little)
 
- - [ ] I understand that the result of my actions is not the fault of the owner of this repository
+ - [x] I understand that the result of my actions is not the fault of the owner of this repository
 
 ## Credits
 - [kiero](https://github.com/Rebzzel/kiero)

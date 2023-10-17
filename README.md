@@ -10,7 +10,8 @@ Hooks the dx11 [present method](https://learn.microsoft.com/en-us/windows/win32/
 
 You should have a `.dll` (dynamic link library) produced, use a dll injector to execute the code into a process, this should render a menu, by default it's toggleable with the `DEL` key and and uninjectable with the pre-coded button. 
 
-If your menu isn't appearing make sure that the game that you are injecting into is actually using dx11. If the menu glitches or appears semi transparent make sure that you are on "Windowed Fullscreen".
+- If your menu isn't appearing consider that not all games are going to work with this method, this source was tested and will be maintained using CS2
+- Makes sure that you are on "Windowed Fullscreen" (the menu may appear semi-transparent otherwise)
 
 ## Credits
 - [kiero](https://github.com/Rebzzel/kiero)

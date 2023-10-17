@@ -21,4 +21,4 @@ If your menu isn't appearing make sure that the game that you are injecting into
 > [MIT](https://opensource.org/license/mit/) 2023 Ridhwan
 > 
 > Some parts of the software may be coded by other people (see credits)
-> - [ ] I understand that unauthorized DLL injection may result in bans and/or pentalties.
+>- [x] I understand that unauthorized DLL injection may result in bans and/or pentalties.

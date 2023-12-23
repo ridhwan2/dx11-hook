@@ -10,7 +10,7 @@ Renders a gui by internally hooking [DirectX11](https://en.wikipedia.org/wiki/Di
 
 You should have a `.dll` (dynamic link library) produced, use a dll injector to execute the code into a process, this should render a menu, by default it's toggleable with the `DEL` key and and uninjectable with the pre-coded button. 
 
-- If your menu isn't appearing than an anticheat may be blocking it from loading, to evade this make sure that you have `-insecure` and `-allow_third_party_software` enabled.
+- If your menu isn't appearing than an anticheat may be blocking it from loading, to evade this make sure that you have `-insecure` and/or `-allow_third_party_software` enabled.
 - Make sure that your game is on "Windowed Fullscreen" or the menu may not render properly.
 
 ## Credits

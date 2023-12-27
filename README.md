@@ -1,8 +1,6 @@
 # About
 Renders a gui by internally hooking [DirectX11](https://en.wikipedia.org/wiki/DirectX)
 
-![menu](https://cdn.discordapp.com/attachments/1100164162295959555/1163125073247481906/cmXblhbWXbvnrerV8tqTAkgJLCiwpsKTAkgJLCuxLCiyB1L6c9uWglxRYUmBJgSUFlhRYUqALCiyBVBdUXNaxpMCSAksKLCmwpMCSAvuSAksgtSnfTnoJQWWFFhSYEmBJQWWFOiCAksg1QUVl3UsKbCkwJICSwosKbCkwL6kwP8PfiL6mFQC1V8AAAAASUVORK5CYII.png?ex=653e6fa3&is=652bfaa3&hm=45166019dd00289495dff83bd9172f6009f75ea6bd0c1a68ad75cba38a508a33&)
-
 ## Usage
 - Open the `.sln` file
 - Make sure that you are on `Debug` and `x64`

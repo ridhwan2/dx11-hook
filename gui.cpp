@@ -148,7 +148,6 @@ static long __stdcall detour_present(IDXGISwapChain* p_swap_chain, UINT sync_int
 }
 
 
-// hack loop
 int WINAPI main()
 {
 

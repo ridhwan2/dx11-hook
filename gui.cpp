@@ -114,10 +114,10 @@ static long __stdcall detour_present(IDXGISwapChain* p_swap_chain, UINT sync_int
 		ImGui::Begin("menu");
 		ImGui::Checkbox("checkbox", &checkbox);
 
-		// ImGui::Text("overlay: %.1f fps", ImGui::GetIO().Framerate); If you want to display the overlays fps (should match game fps)
-
+		ImGui::Text("overlay: %.1f fps", ImGui::GetIO().Framerate);
 		if (checkbox) {
 			ShowMessageBox();
+			checkbox = false; // To prevent a game crash
 		}
 
 		if (ImGui::Button("unhook")) {
@@ -148,6 +148,7 @@ static long __stdcall detour_present(IDXGISwapChain* p_swap_chain, UINT sync_int
 }
 
 
+// hack loop
 int WINAPI main()
 {
 

@@ -1,5 +1,7 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
+#include "globals.h"
+#include "hacks.h"
 
 #include "MinHook/MinHook.h"
 #if _WIN64 
@@ -17,6 +19,7 @@
 
 HINSTANCE dll_handle;
 bool show_menu = true;
+bool checkbox = false;
 
 typedef long(__stdcall* present)(IDXGISwapChain*, UINT, UINT);
 present p_present;
@@ -108,10 +111,16 @@ static long __stdcall detour_present(IDXGISwapChain* p_swap_chain, UINT sync_int
 	ImGui::NewFrame();
 
 	if (show_menu) {
-		ImGui::Begin("hook");
-		ImGui::Text("hello dx11!");
+		ImGui::Begin("menu");
+		ImGui::Checkbox("checkbox", &checkbox);
 
-		if (ImGui::Button("uninject")) {
+		// ImGui::Text("overlay: %.1f fps", ImGui::GetIO().Framerate); If you want to display the overlays fps (should match game fps)
+
+		if (checkbox) {
+			ShowMessageBox();
+		}
+
+		if (ImGui::Button("unhook")) {
 			MH_DisableHook(MH_ALL_HOOKS);
 
 			ImGui_ImplDX11_Shutdown();

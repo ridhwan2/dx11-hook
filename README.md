@@ -20,4 +20,5 @@ You should have a `.dll` (dynamic link library) produced, use a dll injector to 
 > [MIT](https://opensource.org/license/mit/) 2023 Ridhwan
 > 
 > Some parts of the software may be coded by other people (see credits)
+
 > Delete the file "main.cpp", not sure why it's there, select all files and press "include in project"
